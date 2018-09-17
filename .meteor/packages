@@ -33,3 +33,10 @@ check
 standard-minifier-css
 standard-minifier-js
 shell-server
+
+aldeed:collection2
+aldeed:autoform
+aldeed:delete-button
+accounts-password
+ian:accounts-ui-bootstrap-3
+msavin:mongol
