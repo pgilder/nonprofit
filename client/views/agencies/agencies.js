@@ -1,6 +1,4 @@
-/**
- * Created by dinos on 10/07/15.
- */
+
 
  Template.agencies.helpers({
  	'agencies': function(){

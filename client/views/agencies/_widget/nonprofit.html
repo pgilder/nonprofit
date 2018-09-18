@@ -1,5 +1,5 @@
 <template name="organizations">
-		{{#each organizations}}
+		{{#each nonprofit}}
 	<div class="col-md-4 col-xlg-4">
 		<div class="row">
 			<div class="col-md-12 m-b-10">
@@ -19,7 +19,7 @@
 				<span class="label font-montserrat fs-11">{{status}}</span>
 				<br>
 
-				<h2 class="text-white">{{nonpeofitName}}</h2>
+				<h2 class="text-white">{{nonprofitname}}</h2>
 
 				<p class="text-white hint-text">
 					{{content}}
@@ -100,7 +100,7 @@ Nothing yet
 			<span class="label font-montserrat fs-11">{{status}}</span>
 			<br>
 
-			<h2 class="text-white">{{nonpeofitName}}</h2>
+			<h2 class="text-white">{{nonprofitname}}</h2>
 
 			<p class="text-white hint-text">
 				{{content}}

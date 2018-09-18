@@ -16,6 +16,7 @@
 		<h2 id="component-title">
 			Add New Organization
 		</h2>
+
 		<form role="form">
 			{{#if errorMessage}}
 			<div class="alert alert-warning">
@@ -148,6 +149,55 @@
 					</span>
 				</div>
 			</div>
+			<div class="form-group  field-agency_donation_url">
+				<label for="Agency_Donation_URL">
+					Donation Web Address
+				</label>
+				<div class="input-div">
+					<input type="text" name="Agency_Donation_URL" value="" class="form-control " data-type="string">
+					<span id="help-text" class="help-block">
+					</span>
+					<span id="error-text" class="help-block">
+					</span>
+				</div>
+			</div>
+			<div class="form-group  field-agency_donations">
+				<label for="Agency_Donations">
+					Donations
+				</label>
+				<div class="input-div">
+					<input type="text" name="Agency_Donations" value="" class="form-control " data-type="string">
+					<span id="help-text" class="help-block">
+					</span>
+					<span id="error-text" class="help-block">
+					</span>
+				</div>
+			</div>
+			<div class="form-group  field-agency_donors">
+				<label for="Agency_Donors">
+					Donors
+				</label>
+				<div class="input-div">
+					<input type="text" name="Agency_Donors" value="" class="form-control " data-type="string">
+					<span id="help-text" class="help-block">
+					</span>
+					<span id="error-text" class="help-block">
+					</span>
+				</div>
+			</div>
+			<div class="form-group  field-agency_donation_amount">
+				<label for="Agency_Donation_Amount">
+					Donation Amount
+				</label>
+				<div class="input-div">
+					<input type="text" name="Agency_Donation_Amount" value="" class="form-control " data-type="string">
+					<span id="help-text" class="help-block">
+					</span>
+					<span id="error-text" class="help-block">
+					</span>
+				</div>
+			</div>
+
 			<section class="text-left agency-photo">
 				<div class="form-group  field-agency_photo input-radio input-radio--innerlabel">
 					<div class="img-box">
@@ -210,6 +260,9 @@
 					<button id="form-submit-button" class="btn btn-success" type="submit">
 						Save
 					</button>
+					<a href="/agencies" id="" class="btn btn-danger">
+						Back to Agencies
+					</a>
 				</div>
 			</div>
 		</form>
