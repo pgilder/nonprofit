@@ -11,11 +11,15 @@ Template.AgenciesInsertForm.events({
     var Agency_Fax_Var = event.target.Agency_Fax.value;
     var Agency_Email_Var = event.target.Agency_Email.value;
     var Agency_URL_Var = event.target.Agency_URL.value;
-    var Agency_Photo_Var = event.target.Agency_Photo.value;
+    // var Agency_Photo_Var = event.target.Agency_Photo.value;
     var Agency_Donation_URL_Var = event.target.Agency_Donation_URL.value;
     var Agency_Donations_Var = event.target.Agency_Donations.value;
     var Agency_Donors_Var = event.target.Agency_Donors.value;
     var Agency_Donation_Amount_Var = event.target.Agency_Donation_Amount.value;
+    var Agency_Content_Var = event.target.Agency_Content.value;
+    var Agency_Status_Var = event.target.Agency_Status.value;
+
+
     Nonprofits.insert({
       nonprofitname: Agency_Name_Var,
       address: Agency_Address_1_Var,
@@ -27,11 +31,14 @@ Template.AgenciesInsertForm.events({
       fax: Agency_Fax_Var,
       email: Agency_Email_Var,
       url: Agency_URL_Var,
-      photo: Agency_Photo_Var,
+    //  photo: Agency_Photo_Var,
       donationurl: Agency_Donation_URL_Var,
       donations: Agency_Donations_Var,
       donors: Agency_Donors_Var,
       donationamount: Agency_Donation_Amount_Var,
+      content: Agency_Content_Var,
+      status: Agency_Status_Var,
+      createdAt:  new Date(),
      });
   }
 });

@@ -4,6 +4,12 @@ FlowRouter.route('/', {
     }
 });
 
+FlowRouter.route('/site/:postId', {
+    action: function(params) {
+        FlowLayout.render("_defaultLayout", {main: "site"});
+    }
+});
+
 FlowRouter.route('/dashboard', {
     action: function(params) {
 	    FlowLayout.render("_defaultLayout", {main: "dashboard"});
