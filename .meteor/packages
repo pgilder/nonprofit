@@ -38,5 +38,7 @@ aldeed:collection2
 aldeed:autoform
 aldeed:delete-button
 accounts-password
+accounts-base
+
 ian:accounts-ui-bootstrap-3
 msavin:mongol

@@ -1,14 +1,15 @@
 FlowRouter.route('/', {
     action: function(params) {
+        FlowLayout.render("_defaultLayout", {main: "site"});
+    }
+});
+
+FlowRouter.route('/timeline', {
+    action: function(params) {
 	    FlowLayout.render("_defaultLayout", {main: "timeline"});
     }
 });
 
-FlowRouter.route('/site/:postId', {
-    action: function(params) {
-        FlowLayout.render("_defaultLayout", {main: "site"});
-    }
-});
 
 FlowRouter.route('/dashboard', {
     action: function(params) {
